@@ -81,11 +81,13 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'Yoonja7979',
         'HOST': 'localhost',
-        
+        'PORT':'',
+        'OPTIONS':{
+            'options':'-c timezone=UTC',
+        },
 
     }
 }
-
 
 
 # Password validation
@@ -118,7 +120,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -129,3 +131,7 @@ STATIC_ROOT=os.path.join(BASE_DIR,'static')
 STATICFILES_DIRS=[
     os.path.join(BASE_DIR,'aglawapp/static'),
 ]
+
+# media settings.
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+MEDIA_URL='/media/'
