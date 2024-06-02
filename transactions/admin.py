@@ -8,11 +8,10 @@ class TransactionAdmin(admin.ModelAdmin):
         return format_html('<img src="{}"  width="30" style=border-radius: 50px/>'.format(object.client_photo1.url))
 
     thumbnail.short_description = 'Photo'
-    list_display = ('file_number','thumbnail','deal_type','client_name','price','email','phone','closing_month','closing_date',
-        'closing_year','is_deal_closed','created_date',)
+    list_display = ('file_number','thumbnail','deal_type','client_name','price','email','phone','is_deal_closed','created_date',)
     list_display_links = ('file_number','thumbnail','client_name')
     list_editable = ('is_deal_closed',)
-    search_fields = ('file_number', 'client_name', 'closing_month', 'closing_date', 'closing_year')
+    search_fields = ('file_number', 'client_name')
     list_filter=('file_number','client_name','is_deal_closed')
 
 

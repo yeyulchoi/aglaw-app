@@ -5,12 +5,18 @@ from transactions.models import Transaction
 # Create your views here.
 def home(request):
     teams =Team.objects.all()
-    today_closings =Transaction.objects.order_by('closing_date').filter(is_deal_closed=True)
-    weekly_closings=Transaction.objects.order_by('closing_date')
+    deal_types= Transaction.objects.values_list('deal_type',flat=True).distinct()
+    cities = Transaction.objects.values_list('city', flat=True).distinct()
+    provinces = Transaction.objects.values_list('province', flat=True).distinct()
+    closings =Transaction.objects.order_by('-created_date').filter(is_deal_closed=True)
+
     data={
         'teams': teams,
-        'today_closings':today_closings,
-        'weekly_closings':weekly_closings,
+        'deal_types':deal_types,
+        'cities':cities,
+        'provinces':provinces,
+        'closings':closings,
+
     }
     return render(request, 'pages/home.html', data)
 

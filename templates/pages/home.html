@@ -2,7 +2,7 @@
 
 {% block content %}
 {% load static %}
- {% load humanize %}
+<!-- {% load humanize %}-->
 <!-- Banner start -->
 <div class="banner" id="banner">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -37,42 +37,41 @@
         </div>
         <!-- Search box 3 start -->
         <div class="search-box-4 sb-8">
-            <form action="#" method="">
+
+            <form action="{% url 'search' %}" method="">
                 <div class="form-group">
-                    <input type="text" name="keyword" placeholder="Search by name" class="form-control">
+                <input type="text" name="keyword" placeholder="Search by name" class="form-control">
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-brand">
-                        <option selected="true" disabled="disabled">Brand</option>
-                        <option>Audi</option>
-                        <option>BMW</option>
-                        <option>Honda</option>
-                        <option>Nissan</option>
+                    <select class="form-control search-fields" name="dealtype">
+                        <option selected="true" disabled="disabled">Deal Type</option>
+                        {% for type in deal_types %}
+                        <option value="{{type}}" >{{type}}</option>
+                        {% endfor%}
+
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-make">
-                        <option selected="true" disabled="disabled">Model</option>
-                        <option>BMW</option>
-                        <option>Honda</option>
-                        <option>Lamborghini Huracán</option>
-                        <option>Sports Car</option>
+                    <select class="form-control search-fields" name="city">
+                        <option selected="true" disabled="disabled">City</option>
+                        {% for city in cities %}
+                        <option >{{city}}</option>
+                         {% endfor%}
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-location">
-                        <option selected="true" disabled="disabled">Location</option>
-                        <option>United States</option>
-                        <option>United Kingdom</option>
+                    <select class="form-control search-fields" name="province">
+                        <option selected="true" disabled="disabled">Province</option>
+                        {% for province in provinces %}
+                        <option >{{province}}</option>
+                         {% endfor%}
                     </select>
                 </div>
                 <div class="form-group">
-                    <select class="form-control search-fields" name="select-year">
-                        <option selected="true" disabled="disabled">Year</option>
-                        <option>2016</option>
-                        <option>2017</option>
-                        <option>2018</option>
-                        <option>2019</option>
+                    <select class="form-control search-fields" name="price">
+                         <option selected="true" disabled="disabled">Year</option>
+                        {% for deal in deals%}
+                         <option >{{deal}}</option>                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
@@ -87,7 +86,7 @@
                 </div>
                 <div class="range-slider clearfix">
                                 <label>Price</label>
-                                <div data-min="0" data-max="150000"  data-min-name="min_price" data-max-name="max_price" data-unit="USD" class="range-slider-ui ui-slider" aria-disabled="false"></div>
+                                <div data-min="0"  data-max="1550000"  data-min-name="min_price" data-max-name="max_price" data-unit="USD" class="range-slider-ui ui-slider" aria-disabled="false"></div>
                                 <div class="clearfix"></div>
                             </div>
                 <div class="form-group">
@@ -96,6 +95,7 @@
                     </button>
                 </div>
             </form>
+
         </div>
         <!-- Search box 3 end -->
         <a class="carousel-control-prev none-580" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -125,16 +125,16 @@
         <!-- Slick slider area start -->
         <div class="slick-slider-area clearfix" >
             <div class="row slick-carousel" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
-                {% for today_closing in today_closings %}
-                <div class="slick-slide-item"  >
+                {% for closing in closings %}
+                <div class="slick-slide-item" >
                     <div class="car-box-3">
                         <div class="car-thumbnail">
                             <a href="car-details.html" class="car-img">
                                 <div class="tag-2">Featured</div>
                                 <div class="price-box">
-                                    <span>Closing Date: {{today_closing.closing_month}} {{today_closing.closing_date}}, {{today_closing.closing_year}}</span>
+                                    <span>Closing Date: </span>
                                 </div>
-                                <img class="d-block w-100" src="{{today_closing.client_photo1.url}}" alt="car" style="min-height:150px; max-height:150px">
+                                <img class="d-block w-100" src="{{closing.client_photo1.url}}" alt="car" style="min-height:250px; max-height:250px">
                             </a>
                             <div class="carbox-overlap-wrapper">
                                 <div class="overlap-box">
@@ -142,7 +142,7 @@
                                         <div class="car-magnify-gallery">
 <!--                                            <a href="img/car/car-1.jpg" class="overlap-btn">-->
 <!--                                                <i class="fa fa-expand"></i>-->
-<!--                                                <img class="hidden" src="{{today_closing.client_photo1.url}}" alt="car" >-->
+<!--                                                <img class="hidden" src="{{closing.client_name}}" alt="car" >-->
 <!--                                            </a>-->
 <!--                                            <a href="img/car/car-2.jpg" class="hidden">-->
 <!--                                                <img class="hidden" src="img/car/car-2.jpg">-->
@@ -163,17 +163,17 @@
                         </div>
                         <div class="detail">
                             <h1 class="title">
-                                <a href="car-details.html">{{today_closing.client_name}}</a>
+                                <a href="{% url 'deal_detail' closing.file_number%}">{{closing.client_name}}</a>
                             </h1>
                             <div class="location" >
-                                <a href="car-details.html">
-                                    <i class="flaticon-pin"></i>Unit {{today_closing.unit_number}}-{{today_closing.street_number}}{{today_closing.street_name}}
+                                <a href="{% url 'deal_detail' closing.file_number%}">
+                                    <i class="flaticon-pin"></i>Unit {{closing.unit_number}}-{{closing.street_number}}{{closing.street_name}}
                                 </a>
                             </div >
                             <ul class="facilities-list clearfix">
-                                <li  >Outstanding Items: {{today_closing.outstanding|safe}}</li>
+                                <li>Outstanding Items: {{closing.outstanding|safe}}</li>
                                 <br>
-                                <li >current status: {{ today_closing.dialog|safe }}</li>
+                                <li >current status: {{ closing.dialog|safe }}</li>
 
                             </ul>
                         </div>
@@ -204,13 +204,13 @@
             <p>Following up with deals every 7 business days ahead</p>
         </div>
         <div class="row">
-            {% for weekly_closing in weekly_closings %}
+            {% for closing in closings %}
             <div class="col-lg-4 col-md-6">
                 <div class="car-box">
                     <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
-                            <div class="tag">{{weekly_closing.closing_month}}/ {{weekly_closing.closing_date}}</div>
-                            <img class="d-block w-100" src="{{weekly_closing.client_photo1.url}}" alt="car" style="min-height:250px; max-height:250px;">
+                        <a href="{% url 'deal_detail' closing.file_number%}" class="car-img">
+                            <div class="tag">{{closing.client_name}}/ {{closing.client_name}}</div>
+                            <img class="d-block w-100" src="{{closing.client_photo1.url}}" alt="car" style="min-height:250px; max-height:250px;">
                             <div class="facilities-list clearfix">
                                 <ul>
                                     <li>
@@ -260,10 +260,10 @@
                     </div>
                     <div class="detail">
                         <h1 class="title">
-                            <a href="car-details.html">Lamborghini Huracán</a>
+                            <a href="{% url 'deal_detail' closing.file_number%}">Lamborghini Huracán</a>
                         </h1>
                         <div class="location">
-                            <a href="car-details.html">
+                            <a href="{% url 'deal_detail' closing.file_number%}">
                                 <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                             </a>
                         </div>
@@ -316,7 +316,7 @@
                             </div>
                         </div>
                     </div>
-                {% endfor%}
+<!--                {% endfor%}-->
             </div>
         </div>
     </div>
