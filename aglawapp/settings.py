@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'zq8o(ha%uz9=^him)jx-0gb#$@0(6vo=i93p3e$=e1l78k2fy@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 LOGIN_REDIRECT_URL='dashboard'
@@ -65,7 +66,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'allauth.account.middleware.AccountMiddleware'
+    'allauth.account.middleware.AccountMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'aglawapp.urls'
@@ -95,20 +97,23 @@ WSGI_APPLICATION = 'aglawapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'aglaw_db',
-        'USER': 'postgres',
-        'PASSWORD': 'Yoonja7979',
-        'HOST': 'localhost',
-        'PORT':'5432',
-        'OPTIONS':{
-            'options':'-c timezone=UTC',
-        },
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'aglaw_db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Yoonja7979',
+#         'HOST': 'localhost',
+#         'PORT':'5432',
+#         'OPTIONS':{
+#             'options':'-c timezone=UTC',
+#         },
+#
+#     }
+# }
 
-    }
-}
+DATABASES = { 'default': dj_database_url.config(default='postgres://postgres:Yoonja7979@localhost/aglaw_db')}
+
 
 
 # Password validation
@@ -171,6 +176,8 @@ CKEDITOR_UPLOAD_PATH = "uploads/"
 
 SITE_ID = 2
 
+
+#email sending
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_HOST = 'smtp.gmail.com'
@@ -178,3 +185,12 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'yeyulchoi@gmail.com'
 EMAIL_HOST_PASSWORD = 'qgip cwzm dfid syxi'
 EMAIL_USE_TLS = True
+
+# whitenoise setting
+
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
+
+
