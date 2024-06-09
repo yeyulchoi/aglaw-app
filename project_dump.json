@@ -1,0 +1,4010 @@
+[
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "deal_id": 7,
+        "user_id": 1,
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "customer": "",
+        "deal_type": "Purchase ",
+        "address": "                                                                                     202-1523 Long Court,  Brampton                                         ",
+        "email": "yeyulchoi@outlook.com",
+        "phone": "6479951483",
+        "message": "aaa",
+        "create_date": "2024-06-09T02:02:54.391"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "deal_id": 7,
+        "user_id": 1,
+        "first_name": "yeyul",
+        "last_name": "Choi",
+        "customer": "Refinance",
+        "deal_type": "Purchase ",
+        "address": "                                                                                     202-1523 Long Court,  Brampton                                         ",
+        "email": "yeyulchoi@gmail.com",
+        "phone": "6479951483",
+        "message": "wanna confirm if the deal is closed.",
+        "create_date": "2024-06-09T02:04:49.808"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "deal_id": 7,
+        "user_id": 1,
+        "first_name": "aaa",
+        "last_name": "Choi",
+        "customer": "Purchaser",
+        "deal_type": "Purchase ",
+        "address": "                                                                                     202-1523 Long Court,  Brampton                                         ",
+        "email": "yeyulchoi@gmail.com",
+        "phone": "6479951483",
+        "message": "wow",
+        "create_date": "2024-06-09T02:05:40.985"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "deal_id": 7,
+        "user_id": 1,
+        "first_name": "KAng",
+        "last_name": "Joun",
+        "customer": "Seller",
+        "deal_type": "Purchase ",
+        "address": "                                                                                     202-1523 Long Court,  Brampton                                         ",
+        "email": "yeyulchoi@gmail.com",
+        "phone": "6479951483",
+        "message": "want to know where is my commissionstmt",
+        "create_date": "2024-06-09T02:10:41.617"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "deal_id": 2,
+        "user_id": 6,
+        "first_name": "kang",
+        "last_name": "june",
+        "customer": "Purchaser",
+        "deal_type": "Purchase ",
+        "address": "                                                                                     1004-23 Dove Avenue,  Mississauga                                         ",
+        "email": "aaa@gmail.com",
+        "phone": "6479951483",
+        "message": "call me",
+        "create_date": "2024-06-09T02:13:31.970"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 6,
+    "fields": {
+        "deal_id": 7,
+        "user_id": 0,
+        "first_name": "jane",
+        "last_name": "kim",
+        "customer": "Seller",
+        "deal_type": "Purchase ",
+        "address": "                                                                                     202-1523 Long Court,  Brampton                                         ",
+        "email": "yeyulchoi@gmail.com",
+        "phone": "6479951483",
+        "message": "call me",
+        "create_date": "2024-06-09T10:34:57.014"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 7,
+    "fields": {
+        "deal_id": 7,
+        "user_id": 7,
+        "first_name": "bbb",
+        "last_name": "aaa",
+        "customer": "",
+        "deal_type": "Purchase ",
+        "address": "                                                                                     202-1523 Long Court,  Brampton                                         ",
+        "email": "ba@gmail.com",
+        "phone": "",
+        "message": "",
+        "create_date": "2024-06-09T10:38:30.849"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 8,
+    "fields": {
+        "deal_id": 2,
+        "user_id": 1,
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "customer": "",
+        "deal_type": "Purchase ",
+        "address": "                                                                                     1004-23 Dove Avenue,  Mississauga                                         ",
+        "email": "yeyulchoi@outlook.com",
+        "phone": "",
+        "message": "call me plzz",
+        "create_date": "2024-06-09T12:24:44.932"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 9,
+    "fields": {
+        "deal_id": 5,
+        "user_id": 1,
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "customer": "Seller",
+        "deal_type": "Sale ",
+        "address": "                                                                                     11-123 Beautiful Road,  Kitchener                                         ",
+        "email": "yeyulchoi@outlook.com",
+        "phone": "6479951483",
+        "message": "enjoy it",
+        "create_date": "2024-06-09T12:55:13.449"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 10,
+    "fields": {
+        "deal_id": 2,
+        "user_id": 1,
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "customer": "",
+        "deal_type": "Purchase ",
+        "address": "1004-23 Dove Avenue,  Mississauga                                            ",
+        "email": "yeyulchoi@outlook.com",
+        "phone": "",
+        "message": "I want you to confirm deal is closed.",
+        "create_date": "2024-06-09T14:00:00.153"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 11,
+    "fields": {
+        "deal_id": 6,
+        "user_id": 1,
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "customer": "Seller",
+        "deal_type": "Refinance ",
+        "address": "55 Sunny Blvd, Vaughan",
+        "email": "yeyulchoi@outlook.com",
+        "phone": "6479951483",
+        "message": "ja",
+        "create_date": "2024-06-09T14:26:03.198"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 12,
+    "fields": {
+        "deal_id": 2,
+        "user_id": 1,
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "customer": "Refinance",
+        "deal_type": "Purchase ",
+        "address": "1004-23 Dove Avenue,  Mississauga",
+        "email": "yeyulchoi@outlook.com",
+        "phone": "6479951483",
+        "message": "call me please",
+        "create_date": "2024-06-09T14:30:43.167"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 13,
+    "fields": {
+        "deal_id": 5,
+        "user_id": 1,
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "customer": "Mortgage Broker",
+        "deal_type": "Sale ",
+        "address": "11-123 Beautiful Road,  Kitchener",
+        "email": "yeyulchoi@outlook.com",
+        "phone": "6479951483",
+        "message": "want to get commission fee",
+        "create_date": "2024-06-09T14:34:40.156"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 8,
+    "fields": {
+        "first_name": "Azin",
+        "last_name": "Ghorbankhani",
+        "designation": "Lawyer/Founder",
+        "photo": "photos/2024/06/08/33ab1a2f5981bbbe.PNG",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.facebook.com/",
+        "google_plus_link": "https://www.facebook.com/",
+        "created_date": "2024-05-21T21:36:39.369"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 9,
+    "fields": {
+        "first_name": "Sara",
+        "last_name": "Tottman",
+        "designation": "Receptionist",
+        "photo": "photos/2024/06/08/Kang_Spook_TAvsekg.PNG",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.facebook.com/",
+        "google_plus_link": "https://www.facebook.com/",
+        "created_date": "2024-05-21T21:37:08.625"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 10,
+    "fields": {
+        "first_name": "Pandas",
+        "last_name": "Karigona",
+        "designation": "Receptionist",
+        "photo": "photos/2024/06/08/sunflower.jpg",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.facebook.com/",
+        "google_plus_link": "https://www.facebook.com/",
+        "created_date": "2024-05-21T21:38:44.223"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 11,
+    "fields": {
+        "first_name": "Saba",
+        "last_name": "Phajangho",
+        "designation": "Receptionist",
+        "photo": "photos/2024/06/08/Kore_Njja.PNG",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.facebook.com/",
+        "google_plus_link": "https://www.facebook.com/",
+        "created_date": "2024-05-21T21:39:34.033"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 13,
+    "fields": {
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "designation": "Law Clerk",
+        "photo": "photos/2024/06/08/69ba13ac505ec548.png",
+        "facebook_link": "https://www.facebook.com/",
+        "twitter_link": "https://www.facebook.com/",
+        "google_plus_link": "https://www.facebook.com/",
+        "created_date": "2024-05-21T21:40:35.845"
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 1,
+    "fields": {
+        "file_number": 10001,
+        "client_name": "Spiderman",
+        "price": 1000000,
+        "client_photo1": "photos/2024/06/08/f058f0951cd3ac0b.png",
+        "client_photo2": "photos/2024/06/08/f058f0951cd3ac0b_F8ZcoVW.png",
+        "client_photo3": "photos/2024/06/08/f058f0951cd3ac0b_84aanGX.png",
+        "deal_type": "Sale",
+        "unit_number": null,
+        "street_number": 123,
+        "street_name": "Happy",
+        "street_suffix": "Street",
+        "city": "Markham",
+        "province": "ON",
+        "closing_date": "2024-05-07T04:47:43",
+        "created_date": "2024-06-08T00:41:42",
+        "status": "mtg_not_arrive_yet",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 2,
+    "fields": {
+        "file_number": 10003,
+        "client_name": "Jang Hee Kyung",
+        "price": 950000,
+        "client_photo1": "photos/2024/06/08/f.PNG",
+        "client_photo2": "photos/2024/06/08/f_ECo6Xj4.PNG",
+        "client_photo3": "photos/2024/06/08/f_HtOdXwV.PNG",
+        "deal_type": "Purchase",
+        "unit_number": 1004,
+        "street_number": 23,
+        "street_name": "Dove",
+        "street_suffix": "Avenue",
+        "city": "Mississauga",
+        "province": "ON",
+        "closing_date": "2024-06-10T04:47:43",
+        "created_date": "2024-06-08T00:56:31",
+        "status": "closing_ready",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 3,
+    "fields": {
+        "file_number": 10004,
+        "client_name": "Karl Max",
+        "price": 526000,
+        "client_photo1": "photos/2024/06/08/c.PNG",
+        "client_photo2": "photos/2024/06/08/c_XB1vJci.PNG",
+        "client_photo3": "photos/2024/06/08/c_VJZtouq.PNG",
+        "deal_type": "Title Transfer",
+        "unit_number": 20,
+        "street_number": 45,
+        "street_name": "Cherry",
+        "street_suffix": "Road",
+        "city": "Richmond Hill",
+        "province": "ON",
+        "closing_date": "2024-06-08T05:19:03",
+        "created_date": "2024-06-08T01:16:53",
+        "status": "deal_completed",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 4,
+    "fields": {
+        "file_number": 10007,
+        "client_name": "Jim Stack",
+        "price": 200000,
+        "client_photo1": "photos/2024/06/08/Chang_Jun_XvzA0O0.PNG",
+        "client_photo2": "photos/2024/06/08/Chang_Jun_tFxGzPs.PNG",
+        "client_photo3": "photos/2024/06/08/Chang_Jun_Wfh6vxa.PNG",
+        "deal_type": "Refinance",
+        "unit_number": null,
+        "street_number": 53,
+        "street_name": "Willesden",
+        "street_suffix": "Road",
+        "city": "Toronto",
+        "province": "ON",
+        "closing_date": "2024-06-08T04:47:43",
+        "created_date": "2024-06-08T01:19:15",
+        "status": "deal_completed",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 5,
+    "fields": {
+        "file_number": 1008,
+        "client_name": "Jung Kim",
+        "price": 500000,
+        "client_photo1": "photos/2024/06/08/d.PNG",
+        "client_photo2": "photos/2024/06/08/d_66mBwFY.PNG",
+        "client_photo3": "photos/2024/06/08/d_cNR5jKY.PNG",
+        "deal_type": "Sale",
+        "unit_number": 11,
+        "street_number": 123,
+        "street_name": "Beautiful",
+        "street_suffix": "Road",
+        "city": "Kitchener",
+        "province": "ON",
+        "closing_date": "2024-06-11T04:47:43",
+        "created_date": "2024-06-08T01:40:25",
+        "status": "client_info_required",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 6,
+    "fields": {
+        "file_number": 1009,
+        "client_name": "I. U.",
+        "price": 465000,
+        "client_photo1": "photos/2024/06/08/June_Kamber_oqQvWRR.PNG",
+        "client_photo2": "photos/2024/06/08/June_Kamber_2yQK0kz.PNG",
+        "client_photo3": "photos/2024/06/08/June_Kamber_CAAbSLm.PNG",
+        "deal_type": "Refinance",
+        "unit_number": null,
+        "street_number": 55,
+        "street_name": "Sunny",
+        "street_suffix": "Blvd",
+        "city": "Vaughan",
+        "province": "ON",
+        "closing_date": "2024-06-12T04:47:43",
+        "created_date": "2024-06-08T01:41:46",
+        "status": "docs_sent_to_client",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 7,
+    "fields": {
+        "file_number": 10009,
+        "client_name": "Terry Jung",
+        "price": 456000,
+        "client_photo1": "photos/2024/06/08/Gong_Yu_5PPho6O.PNG",
+        "client_photo2": "photos/2024/06/08/Gong_Yu_WMq1pwH.PNG",
+        "client_photo3": "photos/2024/06/08/Gong_Yu_kJSaccS.PNG",
+        "deal_type": "Purchase",
+        "unit_number": 202,
+        "street_number": 1523,
+        "street_name": "Long",
+        "street_suffix": "Court",
+        "city": "Brampton",
+        "province": "ON",
+        "closing_date": "2024-06-12T04:47:43",
+        "created_date": "2024-06-08T01:43:22",
+        "status": "client_info_required",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 8,
+    "fields": {
+        "file_number": 10020,
+        "client_name": "Matt Damon",
+        "price": 960000,
+        "client_photo1": "photos/2024/06/08/Jack_Tompson_ISI0v4R.PNG",
+        "client_photo2": "photos/2024/06/08/Jack_Tompson_tb5gsy6.PNG",
+        "client_photo3": "photos/2024/06/08/Jack_Tompson_9DhosSw.PNG",
+        "deal_type": "Will",
+        "unit_number": 130,
+        "street_number": 1009,
+        "street_name": "Park",
+        "street_suffix": "Road",
+        "city": "Ottawa",
+        "province": "ON",
+        "closing_date": "2024-06-08T04:47:43",
+        "created_date": "2024-06-08T01:44:35",
+        "status": "deal_completed",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "deals.deal",
+    "pk": 9,
+    "fields": {
+        "file_number": 10021,
+        "client_name": "Kitty Choi",
+        "price": 1302000,
+        "client_photo1": "photos/2024/06/08/Man_Gone.PNG",
+        "client_photo2": "photos/2024/06/08/Man_Gone_8pdJjvD.PNG",
+        "client_photo3": "photos/2024/06/08/Man_Gone_ycYIeZ8.PNG",
+        "deal_type": "Purchase",
+        "unit_number": null,
+        "street_number": 642,
+        "street_name": "Happy",
+        "street_suffix": "Street",
+        "city": "Vaughan",
+        "province": "ON",
+        "closing_date": "2024-06-08T05:19:03",
+        "created_date": "2024-06-08T01:45:48",
+        "status": "mtg_not_arrive_yet",
+        "is_deal_closed": false
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$paBt4VJz3E9R3q4SoWZyR5$V9uJNyYMw6c+ECOAKBbqKsOjaH6KPklopg6zDtzFy+w=",
+        "last_login": "2024-06-09T13:54:22.399",
+        "is_superuser": true,
+        "username": "yeyulchoi",
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "email": "yeyulchoi@outlook.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-05-20T22:36:55",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$aPm1UuHqI0DOOVoS4rRtMR$d429hZwTrN7NVt1oFD06WIgIQTehWTHuykf/aU/5VdM=",
+        "last_login": "2024-06-02T19:41:31.040",
+        "is_superuser": false,
+        "username": "aaabbb",
+        "first_name": "AAA",
+        "last_name": "BBB",
+        "email": "aaabbb@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-02T19:41:27.634",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!1tcNddOGpwBDyCUegBXgRrfq4oTI5i1aiJrpfLee",
+        "last_login": "2024-06-03T22:34:33.257",
+        "is_superuser": false,
+        "username": "yeyul",
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-03T22:29:22.588",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!hn6jOMXNA4GDbls3t4T1EIDx6Uz6ruGKTkj8C2FZ",
+        "last_login": "2024-06-04T20:17:20.653",
+        "is_superuser": false,
+        "username": "yeyul2",
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-04T18:13:40.127",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!XzvPdILDMvjtdfqyCt819YLHvMGTxOYHK2jHgBrX",
+        "last_login": "2024-06-04T20:06:04.722",
+        "is_superuser": false,
+        "username": "yeyul5",
+        "first_name": "Yeyul",
+        "last_name": "Choi",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-04T20:06:04.661",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$VpjQQQDF268WYMv29uy6DN$35jBM0qZHSlDMIEpJWN+0XXzXH2yyhbCn/1e79lMYDg=",
+        "last_login": "2024-06-09T02:12:31.878",
+        "is_superuser": false,
+        "username": "kangjune",
+        "first_name": "Kang",
+        "last_name": "June",
+        "email": "kang@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-09T02:12:30.791",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$PEzgo2IYPEmWjeTOOzCEqS$xErgphcccuiesIa1C4EJlN+F7A1A4YnfG5r8hOmbfC8=",
+        "last_login": "2024-06-09T10:38:06.756",
+        "is_superuser": false,
+        "username": "bbbaaa",
+        "first_name": "bbb",
+        "last_name": "aaa",
+        "email": "ba@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-06-09T10:38:05.467",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4gg8m5p0mc2gymhe08n6tw32ofzia4xz",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pAOAlNcuvcMZIYhUjWQlHZlvLtt0oVu33v_v1WkdSlx7XmOk6iLAnX6ZUzpmesu5EH13nRqdZkn1nuiD9v1rUl-XY_276BQL9uagZ1ncGxDDgMaSSjnIMlaa8QjQ2aXPXDwMJqNu-BpRAKHAyJZVJ8v3U83Ug:1sEe8A:4YinbB9Opu-75Q8NSw7Va4n-AD1aVt0g2uRNuRLAw8U",
+        "expire_date": "2024-06-18T20:03:54.446"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "facebook",
+        "provider_id": "",
+        "name": "Facebook Login",
+        "client_id": "1129130041684679",
+        "secret": "1a18af90f370511b913178574fcf41d0",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 3,
+    "fields": {
+        "provider": "google",
+        "provider_id": "",
+        "name": "google login",
+        "client_id": "20501332123-2nssahvn383p937ep8g063ejjhfj02b1.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "yeyul"
+        ],
+        "provider": "facebook",
+        "uid": "25525797147066227",
+        "last_login": "2024-06-03T22:34:33.237",
+        "date_joined": "2024-06-03T22:29:22.616",
+        "extra_data": {
+            "id": "25525797147066227",
+            "name": "Yeyul Choi",
+            "last_name": "Choi",
+            "first_name": "Yeyul"
+        }
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "yeyul2"
+        ],
+        "provider": "facebook",
+        "uid": "25532955916350350",
+        "last_login": "2024-06-04T20:17:20.609",
+        "date_joined": "2024-06-04T18:13:40.154",
+        "extra_data": {
+            "id": "25532955916350350",
+            "name": "Yeyul Choi",
+            "last_name": "Choi",
+            "first_name": "Yeyul"
+        }
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "yeyul5"
+        ],
+        "provider": "google",
+        "uid": "115622508580407648713",
+        "last_login": "2024-06-04T20:06:04.696",
+        "date_joined": "2024-06-04T20:06:04.696",
+        "extra_data": {
+            "aud": "20501332123-2nssahvn383p937ep8g063ejjhfj02b1.apps.googleusercontent.com",
+            "azp": "20501332123-2nssahvn383p937ep8g063ejjhfj02b1.apps.googleusercontent.com",
+            "exp": 1717549564,
+            "iat": 1717545964,
+            "iss": "https://accounts.google.com",
+            "sub": "115622508580407648713",
+            "name": "Yeyul Choi",
+            "at_hash": "AlbD_ful78wxqVZ4ywz99A",
+            "picture": "https://lh3.googleusercontent.com/a/ACg8ocK3Xy__jyehQ2KcMAcCV2YgWwAalVSBKNrbhFztRhpSDcEjRA=s96-c",
+            "given_name": "Yeyul",
+            "family_name": "Choi"
+        }
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-05-20T23:44:03.769",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "yeyulchoi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-05-21T18:34:02.945",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-05-21T18:35:05.093",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Team object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-05-21T18:35:21.857",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-05-21T18:35:35.938",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-05-21T18:35:58.266",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Team object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-05-21T20:59:58.818",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Azin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-05-21T21:03:57.319",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Azin",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-05-21T21:08:47.150",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Azin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-05-21T21:09:49.044",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Martin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-05-21T21:10:33.146",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Stone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-05-21T21:11:05.363",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-05-21T21:11:51.233",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Michelle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-05-21T21:12:58.508",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "7",
+        "object_repr": "Johne",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-05-21T21:13:07.524",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Stone",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-05-21T21:34:31.971",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "7",
+        "object_repr": "Johne",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-05-21T21:34:37.004",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Martin",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-05-21T21:34:42.153",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Stone",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-05-21T21:34:47.198",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Brandon",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-05-21T21:34:51.930",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Michelle",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-05-21T21:36:39.372",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "8",
+        "object_repr": "Azin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-05-21T21:37:08.627",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "9",
+        "object_repr": "Sara",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-05-21T21:38:44.226",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "10",
+        "object_repr": "Pandas",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-05-21T21:39:34.035",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "11",
+        "object_repr": "Saba",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-05-21T21:40:13.027",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "12",
+        "object_repr": "Yasaman",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-05-21T21:40:35.847",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "13",
+        "object_repr": "Yeyul",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-05-21T23:57:59.882",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "13",
+        "object_repr": "Yeyul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Facebook link\", \"Twitter link\", \"Google plus link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-05-21T23:58:08.318",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "12",
+        "object_repr": "Yasaman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Facebook link\", \"Twitter link\", \"Google plus link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-05-21T23:58:17.818",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "11",
+        "object_repr": "Saba",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Facebook link\", \"Twitter link\", \"Google plus link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-05-21T23:58:26.588",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "10",
+        "object_repr": "Pandas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Facebook link\", \"Twitter link\", \"Google plus link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-05-21T23:58:36.585",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "10",
+        "object_repr": "Pandas",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-05-21T23:58:45.244",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "9",
+        "object_repr": "Sara",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Facebook link\", \"Twitter link\", \"Google plus link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-05-21T23:58:54.193",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "8",
+        "object_repr": "Azin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Facebook link\", \"Twitter link\", \"Google plus link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-05-22T00:12:05.652",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "13",
+        "object_repr": "Yeyul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-05-22T00:12:16.299",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "12",
+        "object_repr": "Yasaman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-05-22T00:12:27.604",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "11",
+        "object_repr": "Saba",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-05-22T00:12:36.300",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "10",
+        "object_repr": "Pandas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-05-22T00:12:55.334",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "9",
+        "object_repr": "Sara",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-05-22T00:13:04.379",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "8",
+        "object_repr": "Azin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-05-22T00:17:41.235",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "13",
+        "object_repr": "Yeyul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-05-22T00:18:12.305",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "12",
+        "object_repr": "Yasaman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-05-22T00:18:51.250",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "11",
+        "object_repr": "Saba",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-05-22T00:19:16.107",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "10",
+        "object_repr": "Pandas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-05-22T00:20:09.935",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "9",
+        "object_repr": "Sara",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-05-22T00:20:40.355",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "8",
+        "object_repr": "Azin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-05-23T18:50:33.486",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "12",
+        "object_repr": "Jungohangeb",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-05-24T19:31:34.811",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "transaction"
+        ],
+        "object_id": "1",
+        "object_repr": "Transaction object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-05-24T19:33:06.849",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "transaction"
+        ],
+        "object_id": "1",
+        "object_repr": "Transaction object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-05-27T22:52:27.112",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-05-27T23:25:06.584",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\", \"Dialog\", \"Created date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-05-27T23:25:55.793",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-05-28T00:38:30.622",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-05-28T00:42:55.117",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Deal type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-05-28T00:48:15.106",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2250",
+        "object_repr": "Jane Pung",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-05-28T00:50:00.611",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-05-28T00:51:28.893",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1478",
+        "object_repr": "Young Sheldon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-05-28T01:09:41.389",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-05-28T01:32:26.697",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-05-28T01:32:38.121",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2250",
+        "object_repr": "Jane Pung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2024-05-28T01:32:48.101",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2250",
+        "object_repr": "Jane Pung",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2024-05-28T01:33:02.140",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2024-05-28T01:33:22.900",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-05-28T01:33:35.944",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-05-28T01:33:50.265",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-05-28T01:33:59.103",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1478",
+        "object_repr": "Young Sheldon",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-05-28T23:58:37.942",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2250",
+        "object_repr": "Jane Pung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-05-29T21:06:47.087",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\", \"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2024-05-29T21:35:57.785",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2024-05-29T21:36:27.629",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2024-05-29T21:37:08.107",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2024-05-29T21:49:44.721",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1478",
+        "object_repr": "Young Sheldon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\", \"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2024-05-29T22:02:58.706",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2024-05-29T22:02:58.720",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2250",
+        "object_repr": "Jane Pung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2024-05-29T22:18:48.867",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2250",
+        "object_repr": "Jane Pung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2024-05-29T22:18:58.843",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2250",
+        "object_repr": "Jane Pung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2024-05-29T22:19:08.221",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2024-05-29T22:19:17.921",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1478",
+        "object_repr": "Young Sheldon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2024-05-30T00:25:20.856",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "6969",
+        "object_repr": "Ian Keston",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2024-05-30T00:25:43.652",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2250",
+        "object_repr": "Jane Pung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2024-05-30T00:25:57.634",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2024-05-30T00:25:57.915",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2024-05-30T00:25:58.174",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "2236",
+        "object_repr": "Yeyul Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2024-05-30T00:26:12.115",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1478",
+        "object_repr": "Young Sheldon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2024-05-30T00:26:12.379",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1478",
+        "object_repr": "Young Sheldon",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2024-05-31T00:13:22.227",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1200",
+        "object_repr": "Amanda Gomez",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2024-05-31T00:15:05.444",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1203",
+        "object_repr": "Kiing Zoon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2024-05-31T00:16:30.647",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1236",
+        "object_repr": "Woang Ping",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2024-06-01T18:00:33.464",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1200",
+        "object_repr": "Amanda Gomez",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\", \"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2024-06-01T20:31:40.574",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1200",
+        "object_repr": "Amanda Gomez",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2024-06-01T20:31:50.628",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1203",
+        "object_repr": "Kiing Zoon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2024-06-01T20:32:00.892",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1236",
+        "object_repr": "Woang Ping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Dialog\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2024-06-01T20:32:11.079",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1236",
+        "object_repr": "Woang Ping",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2024-06-01T20:32:50.538",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1203",
+        "object_repr": "Kiing Zoon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2024-06-01T20:33:10.548",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1200",
+        "object_repr": "Amanda Gomez",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Outstanding\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2024-06-01T20:33:10.780",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "transactions",
+            "transaction"
+        ],
+        "object_id": "1200",
+        "object_repr": "Amanda Gomez",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2024-06-02T23:21:08.866",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2024-06-02T23:31:27.210",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2024-06-03T21:35:34.255",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2024-06-03T21:37:07.541",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2024-06-03T22:36:13.860",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2024-06-03T22:53:40.444",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook Login",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2024-06-03T23:10:40.617",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "example.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2024-06-03T23:12:07.046",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2024-06-03T23:12:39.419",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Facebook Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2024-06-04T00:31:27.298",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2024-06-04T20:02:11.592",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "3",
+        "object_repr": "google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2024-06-08T00:48:01.922",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "1",
+        "object_repr": "Jane Thompson",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2024-06-08T00:56:19.728",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "1",
+        "object_repr": "Jane Thompson",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"File number\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2024-06-08T00:57:46.669",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "2",
+        "object_repr": "Jang Hee Kyung",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2024-06-08T01:19:06.492",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "3",
+        "object_repr": "Karl Max",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2024-06-08T01:20:40.809",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2024-06-08T01:41:33.493",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "5",
+        "object_repr": "Jung Kim",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2024-06-08T01:43:11.356",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "6",
+        "object_repr": "Tom Cruze",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2024-06-08T01:44:32.933",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "7",
+        "object_repr": "Terry Jung",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2024-06-08T01:45:43.230",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2024-06-08T01:46:56.488",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2024-06-08T11:41:22.473",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2024-06-08T11:41:47.284",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2024-06-08T11:42:08.609",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "7",
+        "object_repr": "Terry Jung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2024-06-08T11:42:30.125",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "6",
+        "object_repr": "Tom Cruze",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2024-06-08T11:42:51.620",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "6",
+        "object_repr": "Tom Cruze",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2024-06-08T11:43:21.424",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "5",
+        "object_repr": "Jung Kim",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2024-06-08T11:43:46.124",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2024-06-08T11:44:13.273",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "3",
+        "object_repr": "Karl Max",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2024-06-08T11:44:36.519",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "2",
+        "object_repr": "Jang Hee Kyung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2024-06-08T11:44:58.376",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "1",
+        "object_repr": "Jane Thompson",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client photo1\", \"Client photo2\", \"Client photo3\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2024-06-08T11:45:05.204",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "2",
+        "object_repr": "Jang Hee Kyung",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2024-06-08T11:55:08.352",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "6",
+        "object_repr": "I. U.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2024-06-08T11:55:49.361",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "1",
+        "object_repr": "Spiderman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Client name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2024-06-08T11:58:16.862",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "13",
+        "object_repr": "Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2024-06-08T11:58:33.089",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "11",
+        "object_repr": "Phajangho",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2024-06-08T11:58:48.988",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "10",
+        "object_repr": "Karigona",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2024-06-08T11:59:03.728",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "9",
+        "object_repr": "Tottman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2024-06-08T11:59:18.138",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "8",
+        "object_repr": "Ghorbankhani",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2024-06-08T12:07:23.126",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "13",
+        "object_repr": "Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2024-06-08T12:07:55.174",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "13",
+        "object_repr": "Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2024-06-08T12:10:29.183",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "6",
+        "object_repr": "I. U.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2024-06-08T12:10:29.187",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "5",
+        "object_repr": "Jung Kim",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2024-06-08T12:10:29.189",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2024-06-08T12:10:29.191",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "3",
+        "object_repr": "Karl Max",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2024-06-08T12:10:29.192",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "1",
+        "object_repr": "Spiderman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2024-06-08T12:46:49.854",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Closing date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2024-06-08T12:47:02.094",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Closing date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2024-06-08T13:05:41.302",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "5",
+        "object_repr": "Jung Kim",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Closing date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2024-06-08T16:06:25.985",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2024-06-08T16:06:38.659",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2024-06-08T16:07:06.746",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "7",
+        "object_repr": "Terry Jung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2024-06-08T16:07:21.284",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "6",
+        "object_repr": "I. U.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2024-06-08T16:07:32.190",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "5",
+        "object_repr": "Jung Kim",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2024-06-08T16:07:42.554",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2024-06-08T16:07:47.091",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2024-06-08T16:07:58.746",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "3",
+        "object_repr": "Karl Max",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2024-06-08T16:08:16.139",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "1",
+        "object_repr": "Spiderman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2024-06-08T17:22:02.866",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2024-06-08T17:22:30.532",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2024-06-08T17:22:50.490",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2024-06-08T17:23:18.868",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2024-06-08T17:23:32.556",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "3",
+        "object_repr": "Karl Max",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2024-06-08T17:37:52.292",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2024-06-08T17:38:01.728",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2024-06-08T17:46:39.402",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2024-06-08T17:52:08.980",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2024-06-08T18:20:55.261",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2024-06-08T18:24:04.542",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\", \"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2024-06-08T18:24:14.295",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2024-06-08T18:32:58.414",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2024-06-08T18:33:05.220",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "9",
+        "object_repr": "Kitty Choi",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2024-06-08T18:33:13.961",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2024-06-08T18:33:35.527",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "7",
+        "object_repr": "Terry Jung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Closing date\", \"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2024-06-08T18:33:54.817",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "6",
+        "object_repr": "I. U.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Closing date\", \"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2024-06-08T18:34:11.314",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "5",
+        "object_repr": "Jung Kim",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2024-06-08T18:34:26.256",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2024-06-08T18:34:41.873",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "3",
+        "object_repr": "Karl Max",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\", \"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2024-06-08T18:35:16.759",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "2",
+        "object_repr": "Jang Hee Kyung",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Closing date\", \"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2024-06-08T18:35:32.394",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "6",
+        "object_repr": "I. U.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Closing date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2024-06-08T18:35:54.674",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Closing date\", \"Status\", \"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2024-06-08T18:36:03.925",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "2",
+        "object_repr": "Jang Hee Kyung",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2024-06-08T18:36:12.215",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "1",
+        "object_repr": "Spiderman",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2024-06-08T18:38:08.683",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "8",
+        "object_repr": "Matt Damon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2024-06-08T18:38:15.573",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2024-06-08T18:38:28.768",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "4",
+        "object_repr": "Jim Stack",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+        "action_time": "2024-06-08T18:38:35.333",
+        "user": [
+            "yeyulchoi"
+        ],
+        "content_type": [
+            "deals",
+            "deal"
+        ],
+        "object_id": "3",
+        "object_repr": "Karl Max",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is deal closed\"]}}]"
+    }
+}
+]
