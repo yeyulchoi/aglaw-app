@@ -4,7 +4,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand company-logo"  href="{% url 'home'%}">
-                <img src="{% static 'img/logos/aglogo.PNG' %}" alt="logo">
+                <img src="{% static 'img/logos/logoag.jpg' %}" alt="logoa">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>
@@ -24,12 +24,12 @@
                     </li>
                     <li class="nav-item">
                          <a
-                         {% if 'transactions' in request.path  %}
+                         {% if 'deals' in request.path  %}
                          class="nav-link active"
                          {% else %}
                          class="nav-link"
                          {% endif %}
-                         href="{% url 'transactions' %}">
+                         href="{% url 'deals' %}">
                         Transaction
                         </a>
                     </li>

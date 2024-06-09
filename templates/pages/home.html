@@ -1,14 +1,15 @@
 {% extends 'base.html'%}
 
+ {% block title %} | Home | {% endblock%}
 {% block content %}
 {% load static %}
-<!-- {% load humanize %}-->
+ {% load humanize %}
 <!-- Banner start -->
 <div class="banner" id="banner">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner banner-slider-inner text-center">
             <div class="carousel-item banner-max-height active item-bg">
-                <img class="d-block w-100 h-100" src="{% static 'img/car-1.jpg' %}" alt="banner">
+                <img class="d-block w-100 h-100" src="{% static 'img/lawpic1.png' %}" alt="banner">
                 <div class="carousel-content container banner-info-2 bi-2 text-left">
                     <h3>Wow Factor Standard</h3>
                     <h5>Allow us to guide you through the innovative stress<br>
@@ -17,7 +18,7 @@
                 </div>
             </div>
             <div class="carousel-item banner-max-height item-bg">
-                <img class="d-block w-100 h-100" src="{% static 'img/car-2.jpg' %}" alt="banner">
+                <img class="d-block w-100 h-100" src="{% static 'img/lawpic2.png' %}" alt="banner">
                 <div class="carousel-content container banner-info-2 bi-2 text-left">
                     <h3>Explore Your Dream Car</h3>
                     <h5>Allow us to guide you through the innovative stress<br>
@@ -26,7 +27,7 @@
                 </div>
             </div>
             <div class="carousel-item banner-max-height item-bg">
-                <img class="d-block w-100 h-100" src="{% static 'img/car-3.jpg' %}" alt="banner">
+                <img class="d-block w-100 h-100" src="{% static 'img/lawpic4.png' %}" alt="banner">
                 <div class="carousel-content container banner-info-2 bi-2 text-left">
                     <h3>We Are Wheel</h3>
                     <h5>Allow us to guide you through the innovative stress<br>
@@ -40,7 +41,7 @@
 
             <form action="{% url 'search' %}" method="">
                 <div class="form-group">
-                <input type="text" name="keyword" placeholder="Search by name" class="form-control">
+                    <input type="text" name="keyword" placeholder="Search by name" class="form-control">
                 </div>
                 <div class="form-group">
                     <select class="form-control search-fields" name="dealtype">
@@ -71,7 +72,8 @@
                     <select class="form-control search-fields" name="price">
                          <option selected="true" disabled="disabled">Year</option>
                         {% for deal in deals%}
-                         <option >{{deal}}</option>                        {% endfor %}
+                         <option >{{deal}}</option>
+                        {% endfor %}
                     </select>
                 </div>
                 <div class="form-group">
@@ -129,10 +131,10 @@
                 <div class="slick-slide-item" >
                     <div class="car-box-3">
                         <div class="car-thumbnail">
-                            <a href="car-details.html" class="car-img">
-                                <div class="tag-2">Featured</div>
+                            <a href="{% url 'deal_detail' closing.deal_id %}" class="car-img">
+                                <div class="tag-2">{{closing.deal_type}}</div>
                                 <div class="price-box">
-                                    <span>Closing Date: </span>
+                                    <span>Closing Date:{{closing.closing_date | date:"Y-m-d"}} </span>
                                 </div>
                                 <img class="d-block w-100" src="{{closing.client_photo1.url}}" alt="car" style="min-height:250px; max-height:250px">
                             </a>
@@ -163,17 +165,28 @@
                         </div>
                         <div class="detail">
                             <h1 class="title">
-                                <a href="{% url 'deal_detail' closing.file_number%}">{{closing.client_name}}</a>
+                                <a href="{% url 'deal_detail' closing.deal_id %}">{{closing.client_name}}</a>
                             </h1>
                             <div class="location" >
-                                <a href="{% url 'deal_detail' closing.file_number%}">
-                                    <i class="flaticon-pin"></i>Unit {{closing.unit_number}}-{{closing.street_number}}{{closing.street_name}}
+                                <a href="{% url 'deal_detail' closing.deal_id %}">
+                                    <i class="flaticon-pin"></i>
+                                     {% if closing.unit_number %}
+                                        {{closing.unit_number}}-{{closing.street_number}},{{closing.street_name}} {{closing.street_suffix}},{{closing.city}},{{closing.province}}
+                                     {% else %}
+                                        {{closing.street_number}},{{closing.street_name}} {{closing.street_suffix}},{{closing.city}},{{closing.province}}
+                                    {% endif%}
                                 </a>
                             </div >
                             <ul class="facilities-list clearfix">
-                                <li>Outstanding Items: {{closing.outstanding|safe}}</li>
+                                <li>
+                                    {% if closing.status == 'deal_completed'  %}
+                                        Congratulations!! Closing has been completed!!
+                                    {% else %}
+                                        Closing is in progress...
+                                    {% endif %}
+                                </li>
                                 <br>
-                                <li >current status: {{ closing.dialog|safe }}</li>
+                                <li >current status: {{ closing.status }}</li>
 
                             </ul>
                         </div>
@@ -200,28 +213,28 @@
     <div class="container">
         <!-- Main title -->
         <div class="main-title">
-            <h1> Deals  <span>One Week Ahead</span></h1>
-            <p>Following up with deals every 7 business days ahead</p>
+            <h1> Deals  <span>for the next one week</span></h1>
+            <p>Following up with deals every 7 business days in advance</p>
         </div>
         <div class="row">
-            {% for closing in closings %}
+            {% for next_week in two_weeks_closings %}
             <div class="col-lg-4 col-md-6">
                 <div class="car-box">
                     <div class="car-thumbnail">
-                        <a href="{% url 'deal_detail' closing.file_number%}" class="car-img">
-                            <div class="tag">{{closing.client_name}}/ {{closing.client_name}}</div>
-                            <img class="d-block w-100" src="{{closing.client_photo1.url}}" alt="car" style="min-height:250px; max-height:250px;">
+                        <a href="{% url 'deal_detail' next_week.deal_id %}" class="car-img">
+                            <div class="tag">{{next_week.deal_type}}</div>
+                            <img class="d-block w-100" src="{{next_week.client_photo1.url}}" alt="car" style="min-height:250px; max-height:250px;">
                             <div class="facilities-list clearfix">
                                 <ul>
                                     <li>
-                                        <span><i class="flaticon-way"></i></span>4,000 km
+                                       <span><i class="flaticon-calendar-1"></i></span>Closing Date :
                                     </li>
                                     <li>
-                                        <span><i class="flaticon-calendar-1"></i></span>2020
+                                         {{next_week.closing_date| date:"Y-m-d"}}
                                     </li>
-                                    <li>
-                                        <span><i class="flaticon-manual-transmission"></i></span>Manual
-                                    </li>
+<!--                                    <li>-->
+<!--                                        <span><i class="flaticon-manual-transmission"></i></span>{{next_week.deal_type}}-->
+<!--                                    </li>-->
                                 </ul>
                             </div>
                         </a>
@@ -229,28 +242,28 @@
                             <div class="overlap-box">
                                 <div class="overlap-btns-area">
                                     <div class="car-magnify-gallery">
-                                        <a href="{{weekly_closing.client_photo1.url}}" class="overlap-btn">
+                                        <a href="{{next_week.client_photo1.url}}" class="overlap-btn">
                                             <i class="fa fa-expand"></i>
-                                            <img class="hidden" src="{weekly_closing.client_photo1.url}}">
+                                            <img class="hidden" src="{{next_week.client_photo1.url}}">
                                         </a>
-                                        {% if weekly_closing.client_photo2%}
-                                        <a href="{{weekly_closing.client_photo2.url}}" class="hidden">
-                                            <img class="hidden" src="{{weekly_closing.client_photo2.url}}">
-                                        </a>
-                                        {%endif%}
-                                         {% if weekly_closing.client_photo3%}
-                                        <a href="{{weekly_closing.client_photo3.url}}" class="hidden">
-                                            <img class="hidden" src="{{weekly_closing.client_photo3.url}}">
+                                        {% if closings.client_photo2%}
+                                        <a href="{{next_week.client_photo2.url}}" class="hidden">
+                                            <img class="hidden" src="{{next_week.client_photo2.url}}">
                                         </a>
                                         {%endif%}
-                                         {% if weekly_closing.client_photo4%}
-                                        <a href="{{weekly_closing.client_photo4.url}}" class="hidden">
-                                            <img class="hidden" src="{{weekly_closing.client_photo4.url}}">
+                                         {% if next_week.client_photo3%}
+                                        <a href="{{closings.client_photo3.url}}" class="hidden">
+                                            <img class="hidden" src="{{closings.client_photo3.url}}">
                                         </a>
                                         {%endif%}
-                                         {% if weekly_closing.client_photo5%}
-                                        <a href="{{weekly_closing.client_photo5.url}}" class="hidden">
-                                            <img class="hidden" src="{{weekly_closing.client_photo5.url}}">
+                                         {% if next_week.client_photo4%}
+                                        <a href="{{closings.client_photo4.url}}" class="hidden">
+                                            <img class="hidden" src="{{closings.client_photo4.url}}">
+                                        </a>
+                                        {%endif%}
+                                         {% if next_week.client_photo5%}
+                                        <a href="{{next_week.client_photo5.url}}" class="hidden">
+                                            <img class="hidden" src="{{next_week.client_photo5.url}}">
                                         </a>
                                         {%endif%}
                                     </div>
@@ -260,20 +273,30 @@
                     </div>
                     <div class="detail">
                         <h1 class="title">
-                            <a href="{% url 'deal_detail' closing.file_number%}">Lamborghini Huracán</a>
+                            <a href="{% url 'deal_detail' next_week.deal_id %}">{{next_week.client_name}}</a>
                         </h1>
                         <div class="location">
-                            <a href="{% url 'deal_detail' closing.file_number%}">
-                                <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
+                            <a href="{% url 'deal_detail' next_week.deal_id %}">
+                                <i class="flaticon-pin"></i>
+                                {% if next_week.unit_number %}
+                                   {{next_week.unit_number}}-{{next_week.street_number}},{{next_week.street_name}} {{next_week.street_suffix}},{{next_week.city}},{{next_week.province}}
+                                {% else %}
+                                 {{next_week.street_number}},{{next_week.street_name}} {{next_week.street_suffix}},{{next_week.city}},{{next_week.province}}
+                                {% endif%}
+                            </a>
+                        </div>
+                        <div class="location">
+                            <a href="{% url 'deal_detail' next_week.deal_id %}">
+                               <i class="fa-solid fa-bullhorn"></i>  {{next_week.status}}
                             </a>
                         </div>
                     </div>
                     <div class="footer clearfix">
                         <div class="pull-left ratings days">
-                            <p class="cartype">Sedan</p>
+                            <p class="cartype">PRICE</p>
                         </div>
                         <div class="pull-right">
-                            <p class="price">${{weekly_closing.price|intcomma}}</p>
+                            <p class="price">${{next_week.price|intcomma}}</p>
                         </div>
                     </div>
                 </div>
@@ -302,7 +325,7 @@
                         <div class="team-1">
                             <div class="photo">
                                 <a href="#">
-                                    <img src="{{team.photo.url}}" alt="team-1" class="img-fluid">
+                                    </center><img src="{{team.photo.url}}" alt="team-1" class="img-fluid" style="width:180px; height:250px;">
                                 </a>
                                 <div class="social-list clearfix">
                                     <a href="{{team.facebook_link}}" target="_blank" class="facebook-bg"><i class="fa fa-facebook"></i></a>
@@ -316,7 +339,7 @@
                             </div>
                         </div>
                     </div>
-<!--                {% endfor%}-->
+                {% endfor%}
             </div>
         </div>
     </div>
@@ -355,7 +378,7 @@
                 <div class="modal-header">
                     <div class="modal-title" id="carOverviewModalLabel">
                         <h4>Explore Your Dream Car</h4>
-                        <h5><i class="flaticon-pin"></i> 123 Kathal St. Tampa City,</h5>
+                        <h5><i class="fa-solid fa-money-bill-1-wave"></i> 123 Kathal St. Tampa City,</h5>
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>

@@ -26,14 +26,18 @@ SECRET_KEY = 'zq8o(ha%uz9=^him)jx-0gb#$@0(6vo=i93p3e$=e1l78k2fy@'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+LOGIN_REDIRECT_URL='dashboard'
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'transactions.apps.TransactionsConfig',
+
+    'contacts.apps.ContactsConfig',
+    'accounts.apps.AccountsConfig',
     'pages.apps.PagesConfig',
     'django.contrib.admin',
+    'deals.apps.DealsConfig',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -43,6 +47,14 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'multiselectfield',
     'django.contrib.humanize',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+
+    ## provider
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.google',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware'
 ]
 
 ROOT_URLCONF = 'aglawapp.urls'
@@ -72,6 +85,9 @@ TEMPLATES = [
         },
     },
 ]
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+]
 
 WSGI_APPLICATION = 'aglawapp.wsgi.application'
 
@@ -86,7 +102,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'Yoonja7979',
         'HOST': 'localhost',
-        'PORT':'',
+        'PORT':'5432',
         'OPTIONS':{
             'options':'-c timezone=UTC',
         },
@@ -138,7 +154,27 @@ STATICFILES_DIRS=[
 ]
 
 # media settings.
-MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
+MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
+
+
+# # Messages:
+# from django.contrib.messages import constants as messages
+#
+# MESSAGE_TAGS = {
+#     messages.ERROR: "danger",
+#
+# }
+
+SITE_ID = 2
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'yeyulchoi@gmail.com'
+EMAIL_HOST_PASSWORD = 'qgip cwzm dfid syxi'
+EMAIL_USE_TLS = True
