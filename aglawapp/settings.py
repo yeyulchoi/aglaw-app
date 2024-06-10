@@ -117,9 +117,9 @@ WSGI_APPLICATION = 'aglawapp.wsgi.application'
 # }
 
 
-DATABASES = {
-        'default': dj_database_url.config(default='postgres://postgres:Yoonja7979@localhost:8000/aglaw_db')
-    }
+# DATABASES = {
+#         'default': dj_database_url.config(default='postgres://postgres:Yoonja7979@localhost:8000/aglaw_db')
+#     }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
