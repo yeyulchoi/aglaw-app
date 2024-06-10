@@ -26,7 +26,7 @@ SECRET_KEY = 'zq8o(ha%uz9=^him)jx-0gb#$@0(6vo=i93p3e$=e1l78k2fy@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 LOGIN_REDIRECT_URL='dashboard'
 
 
@@ -60,6 +60,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -67,7 +68,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'allauth.account.middleware.AccountMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+
 ]
 
 ROOT_URLCONF = 'aglawapp.urls'
@@ -112,7 +113,9 @@ WSGI_APPLICATION = 'aglawapp.wsgi.application'
 #     }
 # }
 
-DATABASES = { 'default': dj_database_url.config(default='postgres://localhost')}
+DATABASES = {
+        'default': dj_database_url.config(default='postgres://postgres:Yoonja7979@localhost/aglaw_db')
+        }
 
 
 
@@ -189,7 +192,8 @@ EMAIL_USE_TLS = True
 # whitenoise setting
 
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+    # 'whitenoise.storage.CompressedStaticFilesStorage'
 
 
 
