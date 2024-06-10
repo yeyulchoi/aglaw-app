@@ -115,21 +115,6 @@ WSGI_APPLICATION = 'aglawapp.wsgi.application'
 # }
 
 
-# Define your existing database configuration
-# DATABASES = {
-#     'ENGINE': 'django.db.backends.postgresql',
-#     'NAME': 'aglaw_db',
-#     'USER': 'postgres',
-#     'PASSWORD': 'Yoonja7979',
-#     'HOST': 'localhost',
-#     'PORT': '5432',
-#     'OPTIONS': {
-#         'options': '-c timezone=UTC',
-#     },
-# }
-
-# Override with Heroku's DATABASE_URL if available
-
 DATABASES = {
         'default': dj_database_url.config(default='postgres://postgres:Yoonja7979@localhost:5432/aglaw_db')
     }
