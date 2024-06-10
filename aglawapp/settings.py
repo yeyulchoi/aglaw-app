@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'zq8o(ha%uz9=^him)jx-0gb#$@0(6vo=i93p3e$=e1l78k2fy@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 LOGIN_REDIRECT_URL='dashboard'
