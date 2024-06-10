@@ -116,7 +116,7 @@ WSGI_APPLICATION = 'aglawapp.wsgi.application'
 DATABASES = {
         'default': dj_database_url.config(default='postgres://postgres:Yoonja7979@localhost/aglaw_db')
         }
-
+DATABASES['default']['ENGINE'] = 'django_postgrespool'
 
 
 # Password validation
